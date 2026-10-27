@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio | First Year Student</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for clean modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="portfolio-container">
+    
+    <!-- ========================================================
+         TOP SECTION (HEADER)
+         Left: Profile, Contact Details & Social Links
+         Right: Profile Photo
+         ======================================================== -->
+    <header class="header-section">
+      <!-- Top Left: Contact Details, Profile, Social URLs -->
+      <div class="header-left">
+        <div class="badge-status">
+          <span class="status-dot"></span> Available for internships & learning
+        </div>
+        <h1 class="student-name">Alex Morgan</h1>
+        <p class="student-role">First-Year Computer Science &amp; Engineering Student</p>
+        
+        <!-- Short Profile / About Bio -->
+        <p class="profile-bio">
+          Enthusiastic first-year undergraduate passionate about software development, problem-solving, and web technologies. Eager to explore new domains, collaborate on impactful projects, and build foundational engineering skills.
+        </p>
+
+        <!-- Contact Details -->
+        <div class="contact-grid">
+          <div class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span>alex.morgan@email.com</span>
+          </div>
+
+          <div class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>+1 (555) 234-5678</span>
+          </div>
+
+          <div class="contact-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>San Francisco, CA</span>
+          </div>
+        </div>
+
+        <!-- Social URLs -->
+        <div class="social-links">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            LinkedIn
+          </a>
+
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path>
+            </svg>
+            GitHub
+          </a>
+
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+            </svg>
+            Twitter / X
+          </a>
+        </div>
+      </div>
+
+      <!-- Top Right: Photo -->
+      <div class="header-right">
+        <div class="photo-wrapper">
+          <!-- Replace the src with your own image (e.g., "my-photo.jpg") -->
+          <img 
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" 
+            alt="Alex Morgan Profile Photo" 
+            class="profile-img"
+          />
+          <div class="photo-accent"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========================================================
+         MAIN TWO-COLUMN SECTION
+         Left: Education, Sports Achievements, Projects, Certifications, Hobbies
+         Right: Internship Experience & Skills
+         ======================================================== -->
+    <main class="content-columns">
+
+      <!-- LEFT COLUMN -->
+      <div class="column left-column">
+        
+        <!-- 1. Education -->
+        <section class="card">
+          <div class="section-title-wrap">
+            <div class="section-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h2>Education</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="item-header">
+                <h3>B.Tech in Computer Science &amp; Engineering</h3>
+                <span class="badge-time">2026 – 2030 (Expected)</span>
+              </div>
+              <p class="institution">California Institute of Technology / State University</p>
+              <p class="details">First Semester | Current CGPA: 3.8 / 4.0</p>
+              <p class="subtext">Relevant Coursework: Intro to Programming (Python &amp; C), Discrete Mathematics, Digital Logic, Engineering Physics.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="item-header">
+                <h3>Senior Secondary High School (Grade XII)</h3>
+                <span class="badge-time">2024 – 2026</span>
+              </div>
+              <p class="institution">Green Valley Senior High School</p>
+              <p class="details">Major: Science (Physics, Chemistry, Mathematics &amp; CS) — 94.5%</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. Projects -->
+        <section class="card">
+          <div class="section-title-wrap">
+            <div class="section-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h2>Projects</h2>
+          </div>
+
+          <div class="project-list">
+            <div class="project-card">
+              <div class="item-header">
+                <h3>Personal Portfolio Website</h3>
+                <span class="badge-tech">HTML5 &amp; CSS3</span>
+              </div>
+              <p class="project-desc">
+                Designed and coded a responsive personal website adhering to semantic HTML principles and CSS Flexbox/Grid layouts to display academic achievements and skills.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Semantic HTML</span>
+                <span class="tag">Responsive Design</span>
+                <span class="tag">CSS Grid</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="item-header">
+                <h3>Student Grade Calculator &amp; Tracker</h3>
+                <span class="badge-tech">Python</span>
+              </div>
+              <p class="project-desc">
+                CLI-based program to calculate GPA, predict semester grades, and save student performance data into structured CSV reports.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">File I/O</span>
+                <span class="tag">Algorithms</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="item-header">
+                <h3>Interactive Quiz Game</h3>
+                <span class="badge-tech">JavaScript &amp; DOM</span>
+              </div>
+              <p class="project-desc">
+                A timed general knowledge and coding trivia quiz application with score tracking and instant answer evaluations.
+              </p>
+              <div class="tag-row">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Event Handling</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. Sports Achievements -->
+        <section class="card">
+          <div class="section-title-wrap">
+            <div class="section-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+              </svg>
+            </div>
+            <h2>Sports Achievements</h2>
+          </div>
+
+          <div class="achievement-list">
+            <div class="achievement-item">
+              <div class="achieve-badge">🥇 1st Place</div>
+              <div class="achieve-content">
+                <h4>Inter-College Badminton Tournament (Singles)</h4>
+                <p>Champions Trophy, Annual Sports Fest (2026)</p>
+              </div>
+            </div>
+
+            <div class="achievement-item">
+              <div class="achieve-badge">⚽ Captain</div>
+              <div class="achieve-content">
+                <h4>High School Football / Soccer Team</h4>
+                <p>Led a 16-member team to District Finals; recognized for strategic leadership and team spirit (2025).</p>
+              </div>
+            </div>
+
+            <div class="achievement-item">
+              <div class="achieve-badge">🥈 2nd Place</div>
+              <div class="achieve-content">
+                <h4>Regional 400m Track &amp; Field Sprint</h4>
+                <p>State Athletics Meet, Silver Medalist (2024).</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. Certifications -->
+        <section class="card">
+          <div class="section-title-wrap">
+            <div class="section-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="6"></circle>
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+              </svg>
+            </div>
+            <h2>Certifications</h2>
+          </div>
+
+          <div class="cert-list">
+            <div class="cert-item">
+              <div class="cert-details">
+                <h4>CS50x: Introduction to Computer Science</h4>
+                <p class="issuer">Harvard University / edX &bull; 2026</p>
+              </div>
+              <span class="cert-id">Verified</span>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-details">
+                <h4>Responsive Web Design Certification</h4>
+                <p class="issuer">freeCodeCamp &bull; 2026</p>
+              </div>
+              <span class="cert-id">Verified</span>
+            </div>
+
+            <div class="cert-item">
+              <div class="cert-details">
+                <h4>Python for Everybody Specialization</h4>
+                <p class="issuer">University of Michigan / Coursera &bull; 2025</p>
+              </div>
+              <span class="cert-id">Verified</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. Hobbies & Interests -->
+        <section class="card">
+          <div class="section-title-wrap">
+            <div class="section-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+              </svg>
+            </div>
+            <h2>Hobbies &amp; Interests</h2>
+          </div>
+
+          <div class="hobbies-grid">
+            <div class="hobby-pill">🏸 Badminton &amp; Fitness</div>
+            <div class="hobby-pill">♟️ Competitive Chess</div>
+            <div class="hobby-pill">📸 Mobile Photography</div>
+            <div class="hobby-pill">💻 Open-Source Exploration</div>
+            <div class="hobby-pill">📚 Tech &amp; Sci-Fi Reading</div>
+            <div class="hobby-pill">🎧 Audio Podcasts</div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="column right-column">
+
+        <!-- 1. Internship Experience -->
+        <section class="card">
+          <div class="section-title-wrap">
+            <div class="section-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h2>Internship Experience</h2>
+          </div>
+
+          <div class="experience-list">
+            <!-- Internship 1 -->
+            <div class="experience-item">
+              <div class="item-header">
+                <div>
+                  <h3 class="role-title">Web Development Intern (Trainee)</h3>
+                  <span class="company-name">TechStart Solutions &bull; Remote</span>
+                </div>
+                <span class="badge-time">Summer 2026</span>
+              </div>
+              <ul class="exp-bullet-list">
+                <li>Assisted senior developers in structuring responsive landing pages using clean HTML5 &amp; CSS3.</li>
+                <li>Fixed cross-browser styling inconsistencies and optimized CSS styles for faster rendering.</li>
+                <li>Participated in weekly code reviews and adopted Git version control best practices.</li>
+              </ul>
+            </div>
+
+            <!-- Internship 2 / Campus Role -->
+            <div class="experience-item">
+              <div class="item-header">
+                <div>
+                  <h3 class="role-title">Campus Tech Ambassador</h3>
+                  <span class="company-name">Developer Student Club &bull; University Chapter</span>
+                </div>
+                <span class="badge-time">Aug 2026 – Present</span>
+              </div>
+              <ul class="exp-bullet-list">
+                <li>Organized introductory workshops on Git, GitHub, and web development for 100+ incoming first-year freshmen.</li>
+                <li>Managed event registration portals and collaborated with technical leads for hackathon promotions.</li>
+              </ul>
+            </div>
+
+            <!-- Internship 3 / Open Source -->
+            <div class="experience-item">
+              <div class="item-header">
+                <div>
+                  <h3 class="role-title">Open-Source Contributor (Student)</h3>
+                  <span class="company-name">Frontend Community Projects &bull; GitHub</span>
+                </div>
+                <span class="badge-time">2026</span>
+              </div>
+              <ul class="exp-bullet-list">
+                <li>Contributed documentation fixes and UI improvements to beginner-friendly open-source web repositories.</li>
+                <li>Authored markdown tutorials explaining beginner CSS Grid and Flexbox techniques.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. Skills -->
+        <section class="card">
+          <div class="section-title-wrap">
+            <div class="section-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+            </div>
+            <h2>Skills</h2>
+          </div>
+
+          <div class="skills-wrapper">
+            
+            <!-- Programming Languages -->
+            <div class="skill-category">
+              <h4 class="category-heading">Programming Languages</h4>
+              <div class="skill-bars">
+                <div class="skill-meter">
+                  <div class="skill-info">
+                    <span>C / C++</span>
+                    <span>Intermediate</span>
+                  </div>
+                  <div class="bar-bg"><div class="bar-fill" style="width: 75%;"></div></div>
+                </div>
+
+                <div class="skill-meter">
+                  <div class="skill-info">
+                    <span>Python</span>
+                    <span>Intermediate</span>
+                  </div>
+                  <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+                </div>
+
+                <div class="skill-meter">
+                  <div class="skill-info">
+                    <span>JavaScript (ES6+)</span>
+                    <span>Beginner - Familiar</span>
+                  </div>
+                  <div class="bar-bg"><div class="bar-fill" style="width: 60%;"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Web Technologies -->
+            <div class="skill-category">
+              <h4 class="category-heading">Web Technologies</h4>
+              <div class="skill-pills">
+                <span class="skill-pill highlight">HTML5</span>
+                <span class="skill-pill highlight">CSS3 (Grid &amp; Flexbox)</span>
+                <span class="skill-pill">Responsive Web Design</span>
+                <span class="skill-pill">Bootstrap basics</span>
+                <span class="skill-pill">DOM Manipulation</span>
+              </div>
+            </div>
+
+            <!-- Developer Tools -->
+            <div class="skill-category">
+              <h4 class="category-heading">Tools &amp; Platforms</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">Git</span>
+                <span class="skill-pill">GitHub</span>
+                <span class="skill-pill">VS Code</span>
+                <span class="skill-pill">Linux / Terminal</span>
+                <span class="skill-pill">Figma (UI Basics)</span>
+              </div>
+            </div>
+
+            <!-- Soft & Professional Skills -->
+            <div class="skill-category">
+              <h4 class="category-heading">Soft Skills</h4>
+              <div class="skill-pills">
+                <span class="skill-pill">Team Collaboration</span>
+                <span class="skill-pill">Analytical Problem Solving</span>
+                <span class="skill-pill">Active Learning</span>
+                <span class="skill-pill">Communication</span>
+                <span class="skill-pill">Time Management</span>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="portfolio-footer">
+      <p>&copy; 2026 Alex Morgan &bull; Built with pure HTML5 &amp; CSS3</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
